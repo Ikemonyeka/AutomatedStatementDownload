@@ -24,8 +24,8 @@ username_input = webDriver.find_element(By.NAME, "username")
 password_input = webDriver.find_element(By.NAME, "password")
 
 # Enter username and password
-username_input.send_keys("ikem")
-password_input.send_keys("ikemefuna2001")
+username_input.send_keys("")
+password_input.send_keys("")
 
 # Find the login button by class name and click it
 login_button = webDriver.find_element(By.CLASS_NAME, "login100-form-btn")
